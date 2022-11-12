@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+if __name__ == '__main__':
+    inp_list = list(map(int, input().split()))
+    out_list = list()
+    ind = 0
+    if len(inp_;ist) != 10:
+        print("Err")
+
+    for item in inp_list:
+        if item % 3 == 0 and item !=0:
+            out_list.append(item)
+            ind = inp_list.index(item)
+    print(out_list)
+    print (ind)

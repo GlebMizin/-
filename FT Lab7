@@ -4,13 +4,18 @@
 if __name__ == '__main__':
     inp_list = list(map(int, input().split()))
     out_list = list()
-    ind = 0
-    if len(inp_;ist) != 10:
+    if len(inp_list) != 10:
         print("Err")
 
-    for item in inp_list:
-        if item % 3 == 0 and item !=0:
-            out_list.append(item)
-            ind = inp_list.index(item)
+    for i in inp_list:
+        if i % 3 == 0 and i !=0:
+            out_list.append(i)
+            ind = inp_list.index(i)
     print(out_list)
     print (ind)
+    
+    # out_list = [i for i in inp_list if i % 3 == 0 and i !=0 ]
+    # ind = [inp_list.index(i) for i in inp_list if i % 3 == 0 and i !=0 ]
+    # print(out_list)
+    # print(ind[-1])
+            
